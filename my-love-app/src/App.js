@@ -4,10 +4,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-          Hello YoshiSAN
-    </div>
+    <input type="text" onClick={()=>{console.log("hey")}}/>
   );
+
 }
 
 export default App;
